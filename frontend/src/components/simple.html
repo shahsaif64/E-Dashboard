@@ -1,20 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-</head>
-<body>
+<section>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid">
+        <Link className="navbar-brand" to="/">Navbar</Link>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
 
-    <form action="" method="post">
-        <label for="name">Username</label>
-        <input type="text" name="name" id="name"/>
-        <label for="mail">email</label>
-        <input type="email" name="email" id="mail"/>
-        <label for="pass">Password</label>
-        <input type="password" name="pass" id="pass"/>
-    </form>
+        <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" to="/">Products</Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="page" to="/add">Add</Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="page" to="/update">Update</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="page" to="/delete">Delete</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="page" to="/signup">Register</Link>
+            </li>
+           
+          </ul>
+
+          {/* <ul className="nav-item">
+          <Link className="nav-link me-2" to="/logout">Logout</Link><Link className="nav-link me-2" to="/login">Login</Link>
+          </ul> */}
+      
+        
+        </div>
+      </div>
+    </nav>
     
-</body>
-</html>
+    
+        </section>

@@ -1,0 +1,100 @@
+@media (max-width: 1400px) {
+  .reg .login_wrapper{
+    width: 70%;
+  
+  }
+}
+
+@media (max-width: 1251) {
+
+  h1{
+    font-size: 4.375rem;
+  }
+
+  h2{
+    font-size: 2.1875rem;
+  }
+
+  h3{
+    font-size: 1.4375rem;
+  }
+  .reg .login_wrapper{
+    width: 80%;
+  
+  }
+ 
+}
+
+@media (max-width: 992px) {
+  
+  h1{
+    font-size: 3.125rem;
+    line-height: 1.3;
+  }
+
+  h2{
+    font-size: 1.875rem;
+  }
+
+  h3{
+    font-size: 1.25rem;
+  }
+
+  a{
+    font-size:1rem ;
+  }
+  .reg .login_wrapper{
+    width: 80%;
+  
+  }
+  
+ 
+}
+
+@media (max-width: 767px) {
+ 
+  h1{
+    font-size: 1.875rem;
+  }
+
+  h2{
+    font-size: 1.25rem;
+  }
+
+  h3{
+    font-size: 1.125rem;
+  }
+  h5{
+    font-size: .9375rem;
+  }
+
+  p{
+    font-size:.875rem ;
+  }
+  .form_wrapper{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .register h2{
+    margin-left: 4rem;
+  }
+   .register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+}
+
+@media (max-width: 576px) {
+ 
+  
+  
+}
+
+@media (max-width: 490px) {
+ 
+}
